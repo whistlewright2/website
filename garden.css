@@ -1,0 +1,43 @@
+@font-face { 
+	font-family: "GlacialIndifference"; 
+	src: url('../fonts/GlacialIndifference/WEB/GlacialIndifference-Regular.woff2'); 
+}
+
+@font-face { 
+    font-family: GlacialIndifference; 
+    font-weight: bold; 
+    src: url('../fonts/GlacialIndifference/WEB/GlacialIndifference-Bold.woff2');
+}
+
+body {
+    font-family: GlacialIndifference, sans-serif;
+    line-height: 1.6em;
+    font-size: 1.375em;
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    line-height: 1.6em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.artend {
+    margin: auto;
+    width: 50%;
+}
+
+footer {
+    font-size: 0.6875em;
+}
